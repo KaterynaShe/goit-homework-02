@@ -1,0 +1,175 @@
+:root {
+    --accent-color: #404BBF;
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+    font-style: normal;
+    }
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-link {
+    color: var(--accent-color);
+}
+/* ============ COMPONENTS ===============*/
+
+/* ============ /COMPONENTS ===============*/
+
+
+/* ============ HEADER ===============*/
+
+.logo-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.text-logo-header{
+    color: #2E2F42;
+}
+
+.menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.menu-item: hover,
+.menu-item: focus {
+    color: var(--accent-color);
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.contact-email,
+.contact-phone-nomber{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact-email:hover,
+.contact-email:focus {
+    color: var(--accent-color);
+}
+
+.contact-phone-nomber:hover,
+.contact-phone-nomber:focus {
+    color: var(--accent-color);
+}
+
+/* =============== /HEADER ==============*/
+/* ============= HERO =====================*/
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background: #2E2F42;
+}
+
+.hero-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    cursor: pointer;
+}   
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color:var(--accent-color);
+}
+
+.subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.section-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* ============ /HERO ================*/
+/* ============ MAIN ================*/
+.team {
+background: #F4F4FD;
+}
+
+/* ============ /MAIN ================*/
+/* ============ FOOTER ================*/
+.page-footer {
+    background: #2E2F42;
+}
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+.text-logo-footer{
+    color: #F4F4FD;
+}
+.team-list-item {
+    background: #FFFFFF;
+}
+/* ============ /FOOTER ================*/
+/* ============ PORTFOLIO ================*/
+.button-filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5x;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+/* ============ /PORTFOLIO ================*/
