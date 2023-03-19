@@ -65,8 +65,8 @@ body {
     color: #2E2F42;
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.menu-link: hover,
+.menu-link: focus {
     color: var(--accent-color);
 }
 
@@ -82,8 +82,8 @@ font-style: normal;
     color: #434455;
 }
 
-.contact-email:hover,
-.contact-email:focus {
+.contact:hover,
+.contact:focus {
     color: var(--accent-color);
 }
 
