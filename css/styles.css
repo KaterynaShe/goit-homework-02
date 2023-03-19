@@ -161,9 +161,12 @@ font-style: normal;
 /* ============ /HERO ================*/
 /* ============ MAIN ================*/
 .team {
-background: #F4F4FD;
+    background: #F4F4FD;
 }
 
+.portfolio-img {
+    text-decoration: none;
+}
 /* ============ /MAIN ================*/
 /* ============ FOOTER ================*/
 .page-footer {
