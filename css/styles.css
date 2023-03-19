@@ -67,7 +67,7 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-    color: var(--accent-color);
+    color: #404BBF;
 }
 
 .page-contact {
