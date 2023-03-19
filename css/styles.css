@@ -1,5 +1,8 @@
 :root {
     --accent-color: #404BBF;
+    --normal-color:#FFFFFF;
+    --dark-color: #2E2F42;
+    --deep-dark-color: #434455;
 }
 
 .list {
@@ -11,6 +14,8 @@
     }
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--deep-dark-color);
+    background-color: var(--normal-color);
 }
 
 .logo-link {
@@ -65,8 +70,12 @@ body {
     color: var(--accent-color);
 }
 
+.page-contact {
+font-style: normal;
+}
+
 .contact-email,
-.contact-phone-nomber{
+.contact-phone-nomber {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -86,6 +95,11 @@ body {
 
 /* =============== /HEADER ==============*/
 /* ============= HERO =====================*/
+.hero {
+    background: #2E2F42;
+}
+
+
 .hero-title {
     font-weight: 700;
     font-size: 56px;
@@ -97,6 +111,7 @@ body {
 }
 
 .hero-button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -111,6 +126,23 @@ body {
 .hero-button:hover,
 .hero-button:focus {
     background-color:var(--accent-color);
+}
+
+.doing-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--dark-color);
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em; 
+    text-transform: capitalize; 
+    color: var(--dark-color);
 }
 
 .subtitle{
